@@ -27,24 +27,22 @@ nav{
     padding: 1rem 0;
 }
 
-section.input{
-    padding: 100px;
+.input{
+    padding-top: 50px;
 }
-
 h2{
     text-align: center;
     font-size: 36px;
 }
 
 .form_wrap{
-    display: flex;
-    justify-content: center;
+    display: block;
 }
 
 .input_wrap{
-    display: flex;
+    display: block;
     align-items: center;
-    border: 1px solid #ddd;
+    border: 1px solid #fff0f3;
     margin-top: 20px;
 }
 
@@ -57,13 +55,17 @@ input{
 }
 
 button{
+    border-radius: 8px;
     background:#c9184a;
     color: #f8edeb;
     height: 100%;
     font-size: 16px;
     margin-left: 20px;
-    padding: 0 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
     cursor: pointer;
+    border: none;
+    display: block;
 }
 
 section.data{
@@ -101,12 +103,10 @@ section.data p.def{
 @media screen  and (max-width:549px ) {
 
     .font{
-        font-size: 18px;
+        font-size: 25px;
     }
     .mob{
        min-width: 350px;
-        display:flex;
-        justify-content: center;
     }
     .btn{
         margin-top: 20px;
@@ -115,12 +115,11 @@ section.data p.def{
         border-radius: 8px;
         border: none;
     }
-    .btn2{
-        display: none;
+    
+    section.data{
+        max-width: 350px;
+    }
+    .input{
+        padding-top: 150px;
     }
 }
-@media screen and (min-width: 550px) {
-   .btn {
-    display: none;
-   }
-  }

@@ -97,3 +97,30 @@ section.data p.def{
 .audio {
     margin-top: 20px;
 }
+
+@media screen  and (max-width:549px ) {
+
+    .font{
+        font-size: 18px;
+    }
+    .mob{
+       min-width: 350px;
+        display:flex;
+        justify-content: center;
+    }
+    .btn{
+        margin-top: 20px;
+        align-items: center;
+        padding: 10px 10px;
+        border-radius: 8px;
+        border: none;
+    }
+    .btn2{
+        display: none;
+    }
+}
+@media screen and (min-width: 550px) {
+   .btn {
+    display: none;
+   }
+  }

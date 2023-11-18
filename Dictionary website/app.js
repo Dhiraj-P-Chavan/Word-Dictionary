@@ -1,5 +1,5 @@
 let input = document.querySelector('#input');
-let searchBtn = document.querySelector('#search');
+let searchBtn = document.querySelector('.search');
 let notFound = document.querySelector('.not_found');
 let defBox = document.querySelector('.def');
 let audioBox = document.querySelector('.audio');
